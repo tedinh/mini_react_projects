@@ -8,8 +8,6 @@ import App from './App';
 import reducers from './reducers'
 import * as serviceWorker from './serviceWorker';
 
-require('dotenv').config()
-
 ReactDOM.render(
   <Provider store={createStore(reducers)}>
     <App />
